@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/md-blog/",
 
   lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
+  title: "闷豆的笔记",
+  description: "随手记录下的各类笔记",
 
   theme,
 
