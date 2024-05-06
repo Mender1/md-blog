@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "F:/WORK/md-blog/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "E:/md-blog/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "F:/WORK/md-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "E:/md-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

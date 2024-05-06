@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "F:/WORK/md-blog/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "E:/md-blog/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useScriptTag } from "F:/WORK/md-blog/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "F:/WORK/md-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "F:/WORK/md-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "F:/WORK/md-blog/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "E:/md-blog/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "E:/md-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "E:/md-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "E:/md-blog/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "F:/WORK/md-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "E:/md-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
