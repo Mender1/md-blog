@@ -22,6 +22,12 @@ export default sidebar({
       prefix: "front/",
       children: "structure",
     },
+    {
+      text: "运 维",
+      icon: "book",
+      prefix: "operations/",
+      children: "structure",
+    },
     "intro",
     // {
     //   text: "幻灯片",
